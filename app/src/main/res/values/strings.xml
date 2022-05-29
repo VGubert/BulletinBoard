@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">BulletinBoard</string>
+    <string name="ad_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="ad_inter_id">ca-app-pub-3940256099942544/1033173712</string>
+    <!-- Menu Drawer Strings -->
+    <string name="ad_cat1">Объявления</string>
+    <string name="ad_my_ads"> Мои объявления</string>
+    <string name="ad_fav">Избранное</string>
+    <string name="def">Разное</string>
+    <string name="ad_car">Машины</string>
+    <string name="ad_pc">Компьютеры</string>
+    <string name="ad_smartphone">Смартфоны</string>
+    <string name="ad_dn">Бытовая техннка</string>
+    <string name="ad_cat2">Аккаунт</string>
+    <string name="ac_sign_up">Регистрация</string>
+    <string name="ac_sign_in">Вход</string>
+    <string name="ac_sign_out">Выход</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="not_reg">Войдите или зарегистрируйтесь</string>
+    <!-- Sign Dialog -->
+    <string name="email_hint">Email</string>
+    <string name="emailD">Email:</string>
+    <string name="email_reset_password_was_sent">Reset Email was sent</string>
+    <string name="dialog_reset_message">Для восстановления пароля укажите ваш email адрес</string>
+    <string name="password_hint">Password</string>
+    <string name="sign_up_action">Зарегистрироваться</string>
+    <string name="sign_in_action">Войти</string>
+    <string name="anonimus">Гость</string>
+    <string name="forget_password">Забыли пароль?</string>
+    <string name="sign_up_error">Неудалось зарегистрироваться</string>
+    <string name="sign_in_error">Неудалось войти</string>
+    <string name="send_verification_email_error">Неудалось отправить email для потверждения!</string>
+    <string name="send_verification_done">На вашу почту была отправлена ссылка для потвердления вашего аккаунта</string>
+    <!-- Sign Dialog -->
+    <string name="link_done">Email успешно подключен к Google аккаунту</string>
+    <string name="enter_to_g">У вас уже есть аккаунт с этим Email адресом, войдите в него</string>
+    <string name="no_result">No result</string>
+    <!-- Edit Activity -->
+    <string name="select_country">*Выберите страну</string>
+    <string name="select_city">*Выберите город</string>
+    <string name="country">Страна</string>
+    <string name="countryD">Страна:</string>
+    <string name="city">Город</string>
+    <string name="cityD">Город:</string>
+    <string name="index">*Индекс</string>
+    <string name="indexD">Индекс:</string>
+    <string name="tel">Телефон</string>
+    <string name="telD">Телефон:</string>
+    <string name="tel_number">*Номер телефона</string>
+    <string name="category">Категория</string>
+    <string name="title">Заголовок</string>
+    <string name="title_hint">*Укажите заголовок</string>
+    <string name="select_category">*Выберите категорию</string>
+    <string name="price">Цена</string>
+    <string name="price_hint">*Укажите цену</string>
+    <string name="description">Описание</string>
+    <string name="description_hint">*Описание</string>
+    <string name="with_send">С отправкой</string>
+    <string name="with_sendD">С отправкой:</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="send">Отправка</string>
+    <string name="publish">Опубликовать</string>
+    <string name="bt_filter">Применить фильтр</string>
+    <string name="bt_clear">Очистить фильтр</string>
+    <!-- AdListItem -->
+    <string name="price_desc">Цена:</string>
+    <string name="time_publish">Время публикации:&#160;</string>
+    <string name="remove_ads">Удалить рекламу</string>
+</resources>

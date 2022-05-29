@@ -1,0 +1,80 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'com.google.gms.google-services'
+}
+
+
+android {
+    signingConfigs {
+        release {
+            storeFile file('C:\\Users\\Vyacheslav\\key\\key_fb.jks')
+            storePassword 'Qny5152u'
+            keyAlias 'FbKey'
+            keyPassword 'Qny5152u'
+        }
+    }
+    compileSdk 31
+
+    defaultConfig {
+        applicationId "com.fiftyonepercent.bulletinboard"
+        minSdk 21
+        targetSdk 31
+        versionCode 6
+        versionName "1.1"
+        multiDexEnabled true
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+    buildFeatures {
+        viewBinding true
+    }
+
+    lintOptions {
+        baseline(file("lint-baseline.xml"))
+    }
+
+}
+
+dependencies {
+
+    implementation platform('com.google.firebase:firebase-bom:29.0.4')
+    def lifecycle_version = "2.2.0"
+    implementation "androidx.lifecycle:lifecycle-extensions:$lifecycle_version"
+    implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.4.1"
+    annotationProcessor "androidx.lifecycle:lifecycle-compiler:$lifecycle_version"
+    implementation 'androidx.core:core-ktx:1.7.0'
+    implementation 'com.android.billingclient:billing-ktx:4.1.0'
+    implementation 'androidx.appcompat:appcompat:1.4.1'
+    implementation 'androidx.activity:activity-ktx:1.4.0'
+    implementation 'com.google.android.material:material:1.5.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
+    implementation 'com.google.firebase:firebase-auth-ktx'
+    implementation 'com.google.firebase:firebase-database-ktx'
+    implementation 'com.google.firebase:firebase-storage-ktx'
+    implementation 'com.firebaseui:firebase-ui-auth:4.3.2'
+    implementation 'io.ak1.pix:piximagepicker:1.6.2'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'com.android.support:multidex:1.0.3.'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2'
+    implementation 'com.google.android.gms:play-services-ads:20.6.0'
+
+    testImplementation 'junit:junit:4.+'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+}

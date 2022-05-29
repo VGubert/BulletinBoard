@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "164038480399",
+    "firebase_url": "https://bulletinboard-4b8ce-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "bulletinboard-4b8ce",
+    "storage_bucket": "bulletinboard-4b8ce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:164038480399:android:14736528720764869a897a",
+        "android_client_info": {
+          "package_name": "com.fiftyonepercent.bulletinboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "164038480399-ldgjml9pnrfks3s3m4peb1phg9mc518f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fiftyonepercent.bulletinboard",
+            "certificate_hash": "bd987e00b2bf1a4b455fbe42565ef82b1133b07f"
+          }
+        },
+        {
+          "client_id": "164038480399-qjgaj9u5nt36pd748cpsh6tnhdkbhpdf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8ka4WhgN8yc8omGEwXSXSsQlhUm9ECdg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "164038480399-qjgaj9u5nt36pd748cpsh6tnhdkbhpdf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
